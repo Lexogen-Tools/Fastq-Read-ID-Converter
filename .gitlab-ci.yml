@@ -1,0 +1,7 @@
+test_run:
+  image: python:3.7.17-bullseye
+  before_script:
+   - pip install biopython
+  script:
+   - python -m unittest test.conversion_func_test
+   - /bin/bash -ex ./test/run_test.sh

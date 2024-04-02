@@ -1,0 +1,8 @@
+name: fastq_convert
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - biopython>=1.6
+  - python>=3.7
