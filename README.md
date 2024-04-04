@@ -1,9 +1,10 @@
 # Fastq Read ID Converter
-The Fastq Read ID converter is a tool to convert read IDs formats the MGI read headers to be compatible with most pipelines.
+The Fastq Read ID converter is a tool to convert read IDs (fastq read headers). It converts read headers from MGI format to Illumina format (which is compatible with most pipelines).
 
 The conversion process between MGI and Illumina read headers is summarized in the figure below:
 
 ![Alt text](images/read-header.png?raw=true "Read ID conversion overview")
+*Source: [https://sagc-bioinformatics.github.io/mgikit/demultiplex](https://sagc-bioinformatics.github.io/mgikit/demultiplex)*
 
 ## Setting up
 
